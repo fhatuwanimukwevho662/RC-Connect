@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RC Connect Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="dashboard-container">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="sidebar-top">
+
+            <div class="logo-box">
+                RC
+            </div>
+
+            <div>
+                <h2>RC Connect</h2>
+                <p>Rosebank College</p>
+            </div>
+
+        </div>
+
+        <nav class="sidebar-menu">
+
+            <a href="dashboard.html" class="active-link">
+                <i class="fa-solid fa-house"></i>
+                Dashboard
+            </a>
+
+            <a href="notes.html">
+                <i class="fa-solid fa-upload"></i>
+                Upload Notes
+            </a>
+
+            <a href="groups.html">
+                <i class="fa-solid fa-users"></i>
+                Study Groups
+            </a>
+
+            <a href="assignments.html">
+                <i class="fa-solid fa-calendar"></i>
+                Assignments
+            </a>
+
+            <a href="forum.html">
+                <i class="fa-solid fa-comments"></i>
+                Discussion Forum
+            </a>
+
+            <a href="tutoring.html">
+                <i class="fa-solid fa-graduation-cap"></i>
+                Peer Tutoring
+            </a>
+
+        </nav>
+
+        <div class="deadline-card">
+
+            <h3>Upcoming Deadline</h3>
+
+            <p>
+                HCIN6221 POE Submission
+            </p>
+
+            <span>
+                Friday • 23:59
+            </span>
+
+        </div>
+
+    </aside>
+
+    <!-- Main -->
+
+    <main class="dashboard-main">
+
+        <!-- Topbar -->
+
+        <div class="topbar">
+
+            <div>
+
+                <h1>
+                    Welcome RC Student 
+                </h1>
+
+                <p>
+                    Manage your academic activities and collaborate with students.
+                </p>
+
+            </div>
+
+            <div class="topbar-right">
+
+                <div class="search-box">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input type="text" placeholder="Search...">
+
+                </div>
+
+                <div class="notification-icon">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+
+                <div class="profile-section">
+
+                    <div class="profile-avatar">
+                        RS
+                    </div>
+
+                    <div>
+                        <h4>RC Student</h4>
+                        <p>Student User</p>
+                    </div>
+
+                </div>
+
+                <a href="index.html" class="logout-btn">
+                    Logout
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Stats -->
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+
+                <div class="stat-icon blue">
+                    <i class="fa-solid fa-book"></i>
+                </div>
+
+                <div>
+                    <h2>12</h2>
+                    <p>Notes Shared</p>
+                </div>
+
+            </div>
+
+            <div class="stat-card">
+
+                <div class="stat-icon green">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+
+                <div>
+                    <h2>5</h2>
+                    <p>Study Groups</p>
+                </div>
+
+            </div>
+
+            <div class="stat-card">
+
+                <div class="stat-icon orange">
+                    <i class="fa-solid fa-calendar"></i>
+                </div>
+
+                <div>
+                    <h2>3</h2>
+                    <p>Assignments Due</p>
+                </div>
+
+            </div>
+
+            <div class="stat-card">
+
+                <div class="stat-icon purple">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <div>
+                    <h2>8</h2>
+                    <p>Tutoring Sessions</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Content -->
+
+        <div class="content-grid">
+
+            <!-- Left -->
+
+            <div class="left-content">
+
+                <div class="dashboard-card">
+
+                    <div class="card-header">
+
+                        <h2>Upcoming Assignments</h2>
+
+                        <button>
+                            View All
+                        </button>
+
+                    </div>
+
+                    <div class="assignment-item">
+
+                        <div>
+                            <h3>HCIN6221 POE</h3>
+                            <p>Human Computer Interaction</p>
+                        </div>
+
+                        <span class="danger">
+                            Friday
+                        </span>
+
+                    </div>
+
+                    <div class="assignment-item">
+
+                        <div>
+                            <h3>Database Project</h3>
+                            <p>Database Systems</p>
+                        </div>
+
+                        <span class="warning">
+                            Monday
+                        </span>
+
+                    </div>
+
+                    <div class="assignment-item">
+
+                        <div>
+                            <h3>Business Report</h3>
+                            <p>Business Management</p>
+                        </div>
+
+                        <span class="success">
+                            Wednesday
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="dashboard-card">
+
+                    <div class="card-header">
+
+                        <h2>Recent Discussions</h2>
+
+                        <button>
+                            Open Forum
+                        </button>
+
+                    </div>
+
+                    <div class="discussion-item">
+
+                        <h3>
+                            Java Arrays Help
+                        </h3>
+
+                        <p>
+                            12 students participating
+                        </p>
+
+                    </div>
+
+                    <div class="discussion-item">
+
+                        <h3>
+                            Database Relationships
+                        </h3>
+
+                        <p>
+                            8 students participating
+                        </p>
+
+                    </div>
+
+                    <div class="discussion-item">
+
+                        <h3>
+                            Marketing Assignment Support
+                        </h3>
+
+                        <p>
+                            15 students participating
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Right -->
+
+            <div class="right-content">
+
+                <div class="dashboard-card">
+
+                    <h2>
+                        Notifications
+                    </h2>
+
+                    <div class="notification-item">
+
+                        <i class="fa-solid fa-circle-check"></i>
+
+                        <div>
+                            <h4>Notes Uploaded</h4>
+                            <p>Your notes were shared successfully.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="notification-item">
+
+                        <i class="fa-solid fa-users"></i>
+
+                        <div>
+                            <h4>Study Group Joined</h4>
+                            <p>You joined the Programming Group.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="notification-item">
+
+                        <i class="fa-solid fa-calendar"></i>
+
+                        <div>
+                            <h4>Assignment Reminder</h4>
+                            <p>HCIN6221 POE due in 2 days.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="dashboard-card">
+
+                    <h2>
+                        Quick Actions
+                    </h2>
+
+                    <button class="action-btn">
+                        Upload New Notes
+                    </button>
+
+                    <button class="action-btn">
+                        Join Study Group
+                    </button>
+
+                    <button class="action-btn">
+                        Book Tutor
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+</body>
+</html>
